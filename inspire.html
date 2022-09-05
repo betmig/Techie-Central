@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+      <!-- Head -->
+  <head>
+        <meta name="description" content="We cover the latest news on engineering technology for everyone, with a special focus on students, parents, and educators. Our goal is to help people make sense of the technological changes in the world.">
+        <meta name="author" content="Betmig Link">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Techie Central</title>
+        <!-- Image & Favicons -->
+        <link rel="icon" href="img/favicon.ico">
+        <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+        <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+        <!--  jQuery -->
+        <script src= "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js">
+        </script>
+        <!-- Stylesheet -->
+        <link rel="stylesheet" href="css/styles.css">
+        <!-- Free FontAwesome Icons -->
+        <script src="https://kit.fontawesome.com/ad57c6f583.js" crossorigin="anonymous"></script>
+  </head>
+        <!-- Body -->
+  <body>
+    <div class="primary-container">
+         <!-- Accessibility tools -->
+         <button type="button" class="collapsible"><i class="fas fa-wheelchair"></i></button> 
+      <div class="note content">
+        <h1>Accessibility Tools</h1>
+        <!-- Toggle dark mode -->
+        <i class="fas fa-moon"></i>            
+        <span class="change">OFF</span>
+        <br /> <br />
+        <button type="button" class="btn" value="15">-A</button>
+        <button type="button" class="btn" value="20">A</button>
+        <button type="button" class="btn" value="25">A+</button>
+          <br /><br />
+          <input type="range" min="10" max="30" id="slider" value="20" />
+      </div>
+
+      <div id="container" class="container">
+        <!-- Header -->
+        <header class="header">
+          <div class="logo">
+            <img src="img/logo.png" alt="Image of the Techie Central Logo"/>
+          </div>
+          <div class="title">
+            <p>The latest news on engineering technology, for everyone.</p>
+          </div>
+        </header>
+        <!-- Navigation Bar -->
+        <nav class="navbar">
+          <div><a href="index.html">Home</a></div>
+          <div><a href="news.html">News</a></div>
+          <div><a href="inspire.html">Inspire</a></div>
+          <div><a href="learn.html">Learn</a></div>
+          <div><a href="collab.html">Collab</a></div>
+          <div><a href="events.html">Events</a></div>
+          <div><a href="contact.html">Contact</a></div>
+        </nav>
+        <br>
+        <!-- The flexible grid -->
+        <div class="row">
+                <div class="main-news">
+                  <div class="recent-news">
+                      <!-- Articles -->
+                      <div class="article-title"><i class="fas fa-hand-spock"></i> Today's Inspiration</div>
+                      <img src="img/inspire.png" alt="Image of a colorful flyer that reads - Be ready to inspire and get inspired" style="width:100%">
+                      <br>
+                      <br>
+                      <article class="browser">
+                        <h2><i class="fas fa-video"></i> The mind behind Linux</h2>
+                        <a href="https://www.youtube.com/watch?v=o8NPllzkFhE" target="_blank"><img style="width: 100%; height: auto;" src="img/video-0.png" alt="Image of Madeline Grisworld speaking at TEDxBrownU"/></a>
+                        <p>Linus Torvalds transformed technology twice — first with the Linux kernel, which helps power the Internet, and again with Git, the source code management system used by developers worldwide.</p>
+                        <div>Created by Melvin Vargas on December 2nd 2019 <br><br>  <a href="https://www.youtube.com/watch?v=o8NPllzkFhE" target="_blank"> «Watch»</a></div>
+                      </article>
+                      <br>
+                      <article class="browser">
+                        <h2><i class="fas fa-video"></i> I made a robot that serves me soup</h2>
+                        <a href="https://www.youtube.com/watch?v=ab47XHidvwQ" target="_blank"><img style="width: 100%; height: auto;" src="img/video-1.png" alt="Image of Simone making a Robot"/></a>
+                        <p>I made a soup robot because I was tired of pumpkin soup.
+
+                          I was tired of the same old pumpkin soup, so I made a robot to serve it to me. That way, it could make more interesting soups for me. But then I realized that the robot didn’t know what pumpkin soup tasted like, and still doesn’t.
+                          
+                          This is an article about inspiring women in tech, told through the story of making a soup robot. It tells us that there are many ways for women to be involved in technology and IoT.</p>
+                        <div>Created by Simone Giertz on October 25th 2017 <br><br>  <a href="https://www.youtube.com/watch?v=ab47XHidvwQ" target="_blank"> «Watch»</a></div>
+                      </article>
+                      <br>
+                      <article class="browser">
+                        <h2><i class="fas fa-video"></i> How Computer Science Made Me Brave</h2>
+                        <a href="https://www.youtube.com/watch?v=nZ1ehJqXor0" target="_blank"><img style="width: 100%; height: auto;" src="img/video-2.png" alt="Image of Madeline Grisworld speaking at TEDxBrownU"/></a>
+                        <p>Madeline is a junior at Brown University concentrating in Computer Science, with a focus on Machine Learning. She has participated in Brown’s Computer Graphics and Reinforcement Learning research groups and interned as a Software Engineer at Bloomberg. Madeline’s passion lies in CS education, as she has taught many elementary, middle, and high school students how to code. Outside of technology, Madeline enjoyed showing people around campus as a science tour guide and taking photographs around the city. </p>
+                        <div>Created by Melvin Vargas on December 2nd 2019 <br><br>  <a href="https://www.youtube.com/watch?v=nZ1ehJqXor0" target="_blank"> «Watch»</a></div>
+                      </article>
+                  </div>
+                </div>
+                <!-- Right side -->
+                  <div class="side">
+                      <form action="/action_page.php">
+                        <!-- Submission form -->
+                        <div class="form-container">
+                          <h2 style="text-align:center;">  <i class="fas fa-user-plus"></i> Share inspiring videos with the Techie Central Community:</h2>
+                          <p style="text-align:center;">Did you find a cool video? Share it with us!</p>
+                        </div>
+                        <div class="form-container">
+                          <input type="text" placeholder="Name" name="name" required>
+                          <input type="text" placeholder="Email address" name="mail" required>
+                          <input type="text" placeholder="Link" name="link" required>
+                        </div>
+                        <div class="form-container">
+                          <input type="submit" value="Submit">
+                        </div>
+                        <br>
+                      </form>
+                    </div> 
+                </div> 
+        <!-- Footer -->
+        <footer class="footer">
+          <div class="footer-author">
+            <i class="fas fa-leaf"></i>  Created by <a href="https://betmig.dev"><b>Betmig Link</b></a>.
+          <br>
+          <div class="footer-copyright">
+            <b>Copyright © 2022</b>
+          </div>
+          </div> 
+          <div class="footer-social">
+            <b>Follow us</b> <br>
+            <a href="#"><i class="fa fa-linkedin"></i></a> /
+            <a href="#"><i class="fa fa-twitter"></i></a> /
+            <a href="#"><i class="fa fa-youtube"></i></a> /
+            <a href="#"><i class="fa fa-instagram"></i></a> /
+            <a href="#"><i class="fa fa-github"></i></a> /
+            <a href="#"><i class="fa fa-slack"></i></a>
+          </div>
+          <button onclick="topFunction()" id="backBtn" title="Go to top">Top</button>
+        </footer>
+     </div>
+    </div>
+    <!-- JS Scripts -->
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
